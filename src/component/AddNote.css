@@ -1,0 +1,20 @@
+.add-box, .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.add-box .icon{
+    height: 78px;
+    aspect-ratio: 1;
+    font-size: 60px;
+    color: #88abff;
+    border-radius: 50%;
+    border: 2px dashed #88abff;
+}
+.add-box p{
+    color: #88abff;
+    font-weight: 500;
+    margin-top: 20px;
+}
